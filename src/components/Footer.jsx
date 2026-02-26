@@ -1,4 +1,5 @@
 import React from 'react'
+import { ImArrowUp2 } from "react-icons/im";
 
 
 const Footer = () => {
@@ -38,6 +39,10 @@ const Footer = () => {
                         <li><a href="#">Instagram</a></li>
                     </ul>
                 </div>
+            </div>
+            <div className='mx-auto flex items-center justify-between  p-6'>
+                <p className='text-white'>© 2020 Lift Media. All rights reserved.</p>
+                <button className='text-white bg-[#0081FE] p-2 rounded-full'><ImArrowUp2 /></button>
             </div>
         </div>
         
